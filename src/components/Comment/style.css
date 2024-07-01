@@ -1,0 +1,13 @@
+.comment__container {
+  margin-left: 30px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-left: 1px solid #ccc;
+  padding-left: 20px;
+}
+
+.cooment__container-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

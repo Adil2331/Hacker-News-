@@ -1,0 +1,48 @@
+.about__conatiner {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+}
+
+.about__btn {
+  background-color: white;
+  color: black;
+}
+
+.about__title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.no__comments {
+  text-align: center;
+}
+
+.comment_subtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textArea_container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.name__textArea {
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.comment__textArea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  border-radius: 15px;
+}

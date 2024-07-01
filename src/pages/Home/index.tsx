@@ -68,11 +68,11 @@ export const Home = () => {
         Refresh News
       </button>
       {isLoading ? (
-        <h3>Loading...</h3>
+        <h3 style={{ textAlign: "center" }}>Loading...</h3>
       ) : (
         <div className="container">
           {!newsList.length ? (
-            <h3>No news available</h3>
+            <h3 style={{ textAlign: "center" }}>No news available</h3>
           ) : (
             newsList.map((news) => (
               <div className="news__container" key={news.id}>
